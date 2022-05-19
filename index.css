@@ -38,7 +38,7 @@ p {
   max-width: 256px;
 }
 
-p, .qr-code {
+p {
   margin: auto;
 }
 
@@ -46,15 +46,15 @@ p, .qr-code {
   max-width: 288px;
 }
 
-.qr-code, .qr-code-container {
-  position: relative;
+.qr-code-container {
+  display: grid;
+  height: 288px;
+  margin-bottom: 1.5rem;
+  place-items: center;
 }
 
-.qr-code-container {
-  background-color: var(--blue);
-  margin-bottom: 1.5rem;
-  padding: 4rem;
-  overflow: hidden;
+.qr-code, .oval {
+  position: absolute;
 }
 
 .qr-code {
@@ -67,23 +67,4 @@ p, .qr-code {
   box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
   padding: 16px 16px 40px 16px;
   max-width: 20rem;
-}
-
-.circle {
-  background-color: var(--blue-shade);
-  border-radius: 50%;
-  position: absolute;
-  z-index: 1;
-}
-
-.circle-1{
-  width: 328px;
-  height: 328px;
-  transform: translate(-195px, -228px);
-}
-
-.circle-2 {
-  width: 270px;
-  height: 270px;
-  transform: translate(60px, 143px);
 }
