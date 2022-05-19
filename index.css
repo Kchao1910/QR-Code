@@ -53,14 +53,6 @@ p {
   justify-content: center;
 }
 
-.qr-code, .oval {
-  position: absolute;
-}
-
-.qr-code {
-  z-index: 2;
-}
-
 .card {
   background-color: white;
   border-radius: 20px;
