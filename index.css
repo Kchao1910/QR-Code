@@ -47,10 +47,12 @@ p {
 }
 
 .qr-code-container {
-  display: grid;
+  background-image: url(oval.svg);
+  display: flex;
   height: 288px;
   margin-bottom: 1.5rem;
-  place-items: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .qr-code, .oval {
