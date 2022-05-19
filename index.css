@@ -12,6 +12,7 @@
 
 html {
   font-size: 16px;
+  letter-spacing: .1875px;
   text-align: center;
 }
 
@@ -37,7 +38,6 @@ p {
   font-size: .9375rem;
   max-width: 256px;
   margin: auto;
-  letter-spacing: .1875px;
 }
 
 .container {
