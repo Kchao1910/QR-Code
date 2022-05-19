@@ -36,10 +36,8 @@ p {
   font-weight: 400;
   font-size: .9375rem;
   max-width: 256px;
-}
-
-p {
   margin: auto;
+  letter-spacing: .1875px;
 }
 
 .container {
